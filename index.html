@@ -160,8 +160,8 @@ function save(){
 }
 renderLegend(); cur=firstOpenWeek(); render();
 // ---- Supabase sync (paste your project values here) ----
-const SUPABASE_URL="PASTE_YOUR_SUPABASE_URL";
-const SUPABASE_ANON_KEY="PASTE_YOUR_SUPABASE_ANON_KEY";
+const SUPABASE_URL="https://hwdnrdjgzjumkmvdfaea.supabase.co/rest/v1/";
+const SUPABASE_ANON_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh3ZG5yZGpnemp1bWttdmRmYWVhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTExNDI1NjQsImV4cCI6MjEwNjcxODU2NH0.NRWEmfMgdEVZv3fdpKIDXpvMxaghe6he9eT0sOfypmM";
 let sb=null, userId=null;
 const syncEl=()=>document.getElementById('sync');
 function authUI(){
